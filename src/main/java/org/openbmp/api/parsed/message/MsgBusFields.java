@@ -13,6 +13,7 @@ public enum MsgBusFields {
     HASH("hash", ""),
     BASE_ATTR_HASH("base_attr_hash", ""),
     ROUTER_HASH("router_hash", ""),
+    PATH_HASH("path_hash", ""),
     ROUTER_IP("router_ip", ""),
     PEER_HASH("peer_hash", ""),
     PEER_IP("peer_ip", ""),
@@ -121,7 +122,19 @@ public enum MsgBusFields {
     VPN_RD_TYPE("rd_type", 1),
     IS_LOCRIB("isLocRib", 0),
     IS_LOCRIB_FILTERED("isLocRibFiltered", 0),
-    TABLE_NAME("tableName", "");
+    TABLE_NAME("tableName", ""),
+    LABEL_1("label_1", 0),
+    LABEL_2("label_2", 0),
+    OriginRouterIpLen("OriginRouterIpLen",0),
+    OriginRouterIp("OriginRouterIp",""),
+    RdAdminSubfield("RdAdminSubfield",""),
+    GATEWAY("gateway",""),
+    EthernetSegId("EthernetSegId",""),
+    EthernetTagIdHex("EthernetTagIdHex", ""),
+    Mac_len("Mac_len",0),
+    Mac("Mac",""),
+    RouteType("RouteType", 0),
+    VPN_HASH("vpn_hash","");
 
 
     private final String name;
